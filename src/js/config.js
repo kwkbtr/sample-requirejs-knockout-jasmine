@@ -2,6 +2,10 @@
 requirejs.config({
     baseUrl: "../js/lib",
     paths: {
-        kkb: "../kkb"
+        kkb: "../kkb",
+        knockout: [
+            "//cdnjs.cloudflare.com/ajax/libs/knockout/3.1.0/knockout-min",
+            "knockout"
+        ]
     }
 });

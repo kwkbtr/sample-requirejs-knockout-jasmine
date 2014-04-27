@@ -1,3 +1,3 @@
 define([
-    // spec modules
+    "spec/kkb/util/observable"
 ]);
