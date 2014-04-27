@@ -1,12 +1,11 @@
 define([
-], function() {
+    "kkb/util/observable"
+], function(_) {
     "use strict";
 
-    var undefined;
-
     var Account = function(values) {
-        this.id = undefined;
-        this.name = values.name || "";
+        this.id = _.observable();
+        this.name = _.observable(values && values.name);
     };
 
     Account.prototype = {
