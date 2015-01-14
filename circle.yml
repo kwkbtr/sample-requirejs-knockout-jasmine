@@ -1,5 +1,3 @@
-deployment:
-  staging:
-    branch: master
-    heroku:
-      appname: young-badlands-4907
+general:
+  artifacts:
+    - "src"
